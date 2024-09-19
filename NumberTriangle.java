@@ -13,7 +13,9 @@ public class NumberTriangle {
         
     }
     public static void main(String[] args) {
+        //this is use to take user input
         Scanner sc=new Scanner(System.in);
+    
         System.out.println("Enter valur of n ");
         int n=sc.nextInt();
         printPattern(n);
